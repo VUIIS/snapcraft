@@ -1,0 +1,15 @@
+name: pyxnat
+version: 1.0.0
+summary: THIS IS A TEST
+description: THIS IS ALSO A TEST
+
+parts:
+  pyxnat:
+    plugin: python2
+    source: https://github.com/pyxnat/pyxnat
+    source-type: git 
+    build-packages:
+      - python
+      - build-essential
+      - python-requests
+      - python-lxml
