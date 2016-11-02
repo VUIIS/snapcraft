@@ -9,7 +9,9 @@ parts:
     source: https://github.com/pyxnat/pyxnat
     source-type: git 
     build-packages:
-      - python
-      - build-essential
       - python-requests
-      - python-lxml
+    stage-packages:
+      - python-requests 
+    python-packages:
+      - requests
+      - lxml
