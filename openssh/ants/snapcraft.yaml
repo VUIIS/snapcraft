@@ -1,0 +1,206 @@
+name: ants
+version: beta
+summary: THIS IS A TEST
+description: THIS IS ALSO A TEST
+
+apps:
+  ants:
+    command: bl
+  ants:
+    command: PermuteFlipImageOrientationAxes
+  ants:
+    command: ConvertTransformFile
+  ants:
+    command: AverageAffineTransform
+  ants:
+    command: ANTS
+  ants:
+    command: meta
+  ants:
+    command: CopyImageHeaderInformation
+  ants:
+    command: ResampleImageBySpacing
+  ants:
+    command: H5make_libsettings
+  ants:
+    command: ANTSUseLandmarkImagesToGetBSplineDisplacementField
+  ants:
+    command: SmoothImage
+  ants:
+    command: N3BiasFieldCorrection
+  ants:
+    command: ComposeMultiTransform
+  ants:
+    command: RebaseTensorImage
+  ants:
+    command: ReorientTensorImage
+  ants:
+    command: ExtractSliceFromImage
+  ants:
+    command: sccan
+  ants:
+    command: KellySlater
+  ants:
+    command: antsSliceRegularizedRegistration
+  ants:
+    command: antsTransformInfo
+  ants:
+    command: SurfaceBasedSmoothing
+  ants:
+    command: ImageMath
+  ants:
+    command: CreateImage
+  ants:
+    command: ThresholdImage
+  ants:
+    command: Atropos
+  ants:
+    command: FitBSplineCurveToPoints
+  ants:
+    command: ExtractRegionFromImageByMask
+  ants:
+    command: SetDirectionByMatrix
+  ants:
+    command: itkTestDriver
+  ants:
+    command: MemoryTest
+  ants:
+    command: LabelGeometryMeasures
+  ants:
+    command: AverageImages
+  ants:
+    command: CreateDTICohort
+  ants:
+    command: antsUtilitiesTesting
+  ants:
+    command: CreateJacobianDeterminantImage
+  ants:
+    command: CreateDisplacementField
+  ants:
+    command: StackSlices
+  ants:
+    command: MeasureImageSimilarity
+  ants:
+    command: LabelOverlapMeasures
+  ants:
+    command: antsMotionCorr
+  ants:
+    command: ANTSUseDeformationFieldToGetAffineTransform
+  ants:
+    command: CreateWarpedGridImage
+  ants:
+    command: jointfusion
+  ants:
+    command: WarpImageMultiTransform
+  ants:
+    command: SetOrigin
+  ants:
+    command: ConvertScalarImageToRGB
+  ants:
+    command: TimeSCCAN
+  ants:
+    command: DeNrrd
+  ants:
+    command: GetConnectedComponentsFeatureImages
+  ants:
+    command: LesionFilling
+  ants:
+    command: TileImages
+  ants:
+    command: LaplacianThickness
+  ants:
+    command: TextureRunLengthFeatures
+  ants:
+    command: ANTSIntegrateVectorField
+  ants:
+    command: TextureCooccurrenceFeatures
+  ants:
+    command: ANTSIntegrateVelocityField
+  ants:
+    command: PrintHeader
+  ants:
+    command: ImageCompare
+  ants:
+    command: PasteImageIntoImage
+  ants:
+    command: AverageAffineTransformNoRigid
+  ants:
+    command: KellyKapowski
+  ants:
+    command: antsMotionCorrDiffusionDirection
+  ants:
+    command: antsNeuroimagingBattery
+  ants:
+    command: ResetDirection
+  ants:
+    command: CreateTiledMosaic
+  ants:
+    command: SurfaceCurvature
+  ants:
+    command: ANTSJacobian
+  ants:
+    command: sa
+  ants:
+    command: ImageIntensityStatistics
+  ants:
+    command: WarpTensorImageMultiTransform
+  ants:
+    command: ANTSUseLandmarkImagesToGetAffineTransform
+  ants:
+    command: ExtractRegionFromImage
+  ants:
+    command: antsApplyTransforms
+  ants:
+    command: simpleSynRegistration
+  ants:
+    command: compareTwoTransforms
+  ants:
+    command: antsMotionCorrStats
+  ants:
+    command: antsApplyTransformsToPoints
+  ants:
+    command: ResampleImage
+  ants:
+    command: CompositeTransformUtil
+  ants:
+    command: unbiased_longitudinal_map
+  ants:
+    command: WarpTimeSeriesImageMultiTransform
+  ants:
+    command: N4BiasFieldCorrection
+  ants:
+    command: ClusterImageStatistics
+  ants:
+    command: sccan_tests
+  ants:
+    command: antsRegistration
+  ants:
+    command: ConvertToJpg
+  ants:
+    command: LabelClustersUniquely
+  ants:
+    command: ConvertImagePixelType
+  ants:
+    command: AverageTensorImages
+  ants:
+    command: antsMotionCorrExample
+  ants:
+    command: MultiplyImages
+  ants:
+    command: antsAffineInitializer
+  ants:
+    command: H5detect
+  ants:
+    command: antsAlignOrigin
+  ants:
+    command: SetSpacing
+  ants:
+    command: ImageSetStatistics
+  ants:
+    command: ConvertInputImagePixelTypeToFloat
+  ants:
+    command: MeasureMinMaxMean
+parts:
+  ants:
+    plugin: dump
+    source: https://github.com/stnava/ANTs/releases/download/v2.1.0/Linux_Ubuntu14.04.tar.bz2 
