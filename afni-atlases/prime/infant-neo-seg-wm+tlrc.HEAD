@@ -1,0 +1,111 @@
+
+type = string-attribute
+name = HISTORY_NOTE
+count = 460
+'[dglen@gollum.nimh.nih.gov: Thu Mar  7 17:44:50 2013] 3drefit -view tlrc -space unc_infant_neo infant-neo-aal.nii.gz infant-neo-avgseg.nii.gz infant-neo-seg-csf.nii.gz infant-neo-seg-gm.nii.gz infant-neo-seg-wm.nii.gz infant-neo-seg.nii.gz infant-neo-withCerebellum.nii.gz infant-neo-withSkull.nii.gz infant-neo.nii.gz\n[dglen@gollum.nimh.nih.gov: Wed Mar 13 17:36:25 2013] 3dcalc -a infant-neo-seg-wm.nii.gz -expr a/250 -prefix infant-neo-seg-wm -datum float~
+
+type = string-attribute
+name = TYPESTRING
+count = 15
+'3DIM_HEAD_ANAT~
+
+type = string-attribute
+name = IDCODE_STRING
+count = 27
+'AFN_8X7j_ATxaocRx7pAVOk1nQ~
+
+type = string-attribute
+name = IDCODE_DATE
+count = 25
+'Wed Mar 13 17:36:25 2013~
+
+type = integer-attribute
+name = SCENE_DATA
+count = 8
+ 2 2 0 -999 -999
+ -999 -999 -999
+
+type = string-attribute
+name = LABEL_1
+count = 5
+'zyxt~
+
+type = string-attribute
+name = LABEL_2
+count = 5
+'zyxt~
+
+type = string-attribute
+name = DATASET_NAME
+count = 5
+'zyxt~
+
+type = integer-attribute
+name = ORIENT_SPECIFIC
+count = 3
+ 1 2 4
+
+type  = float-attribute
+name  = ORIGIN
+count = 3
+             89            125            -71
+
+type  = float-attribute
+name  = DELTA
+count = 3
+             -1             -1              1
+
+type  = float-attribute
+name  = IJK_TO_DICOM
+count = 12
+             -1              0              0             89              0
+             -1              0            125              0              0
+              1            -71
+
+type  = float-attribute
+name  = IJK_TO_DICOM_REAL
+count = 12
+             -1              0              0             89              0
+             -1              0            125              0              0
+              1            -71
+
+type  = float-attribute
+name  = BRICK_STATS
+count = 2
+              0              1
+
+type = integer-attribute
+name = DATASET_RANK
+count = 8
+ 3 1 0 0 0
+ 0 0 0
+
+type = integer-attribute
+name = DATASET_DIMENSIONS
+count = 5
+ 181 217 181 0 0
+
+type = integer-attribute
+name = BRICK_TYPES
+count = 1
+ 3
+
+type  = float-attribute
+name  = BRICK_FLOAT_FACS
+count = 1
+              0
+
+type = string-attribute
+name = TEMPLATE_SPACE
+count = 15
+'unc_infant_neo~
+
+type = integer-attribute
+name = INT_CMAP
+count = 1
+ 0
+
+type = string-attribute
+name = BYTEORDER_STRING
+count = 10
+'LSB_FIRST~

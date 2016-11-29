@@ -1,0 +1,11 @@
+apps:
+  openssh:
+    command: command-openssh.wrapper
+architectures:
+- amd64
+confinement: strict
+description: THIS IS ALSO A TEST
+grade: stable
+name: openssh-server
+summary: THIS IS A TEST
+version: beta

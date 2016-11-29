@@ -1,0 +1,959 @@
+
+type = string-attribute
+name = HISTORY_NOTE
+count = 177
+'Cytoarchitectonic - Eickhoff, Zilles, Version 1.8\n[dglen@gollum.nimh.nih.gov: Tue Sep  4 15:22:40 2012] 3drefit -atrstring ATLAS_LABEL_TABLE file:pm.niml TT_caez_pmaps_18+tlrc~
+
+type = string-attribute
+name = TYPESTRING
+count = 15
+'3DIM_HEAD_ANAT~
+
+type = string-attribute
+name = IDCODE_STRING
+count = 27
+'AFN_29s_QJHeYxzhBSJz5El9Hg~
+
+type = string-attribute
+name = IDCODE_DATE
+count = 25
+'Tue Sep  4 15:22:29 2012~
+
+type = string-attribute
+name = IDCODE_ANAT_PARENT
+count = 27
+'AFN_EGMnrQdIPC-73VjtqtyXlA~
+
+type = string-attribute
+name = IDCODE_WARP_PARENT
+count = 27
+'AFN_4plBuJip-YrROURBKxHEnQ~
+
+type = integer-attribute
+name = SCENE_DATA
+count = 8
+ 2 11 0 -999 -999
+ -999 -999 -999
+
+type = string-attribute
+name = LABEL_1
+count = 5
+'zyxt~
+
+type = string-attribute
+name = LABEL_2
+count = 5
+'zyxt~
+
+type = string-attribute
+name = DATASET_NAME
+count = 20
+'zyxt@Talairach View~
+
+type = integer-attribute
+name = ORIENT_SPECIFIC
+count = 3
+ 0 3 4
+
+type  = float-attribute
+name  = ORIGIN
+count = 3
+            -80            -80            -65
+
+type  = float-attribute
+name  = DELTA
+count = 3
+              1              1              1
+
+type  = float-attribute
+name  = IJK_TO_DICOM
+count = 12
+              1              0              0            -80              0
+              1              0            -80              0              0
+              1            -65
+
+type  = float-attribute
+name  = IJK_TO_DICOM_REAL
+count = 12
+              1              0              0            -80              0
+              1              0            -80              0              0
+              1            -65
+
+type = integer-attribute
+name = WARP_TYPE
+count = 8
+ 1 0 -999 -999 -999
+ -999 -999 -999
+
+type  = float-attribute
+name  = WARP_DATA
+count = 360
+      0.9444444              0              0              0      0.9976303
+     0.06880209              0    -0.05989829      0.8685252       1.058824
+             -0              0              0      0.9976304    -0.07902943
+             -0      0.0688021       1.145927              0      -3.405704
+      -4.103033             -0       3.073373       4.936095          -9999
+          -9999              0              0              0         9999.9
+      0.9315069              0              0              0      0.9976303
+     0.06880209              0    -0.05989829      0.8685252       1.073529
+             -0              0              0      0.9976304    -0.07902943
+             -0      0.0688021       1.145927              0      -3.405704
+      -4.103033             -0       3.073373       4.936095              0
+          -9999              0         9999.9              0         9999.9
+      0.9444444              0              0              0      0.8154033
+     0.05623471              0    -0.05989829      0.8685252       1.058824
+             -0              0              0       1.220582    -0.07902944
+             -0     0.08417805       1.145927              0      -2.783618
+      -4.103033             -0       3.073373       4.936095          -9999
+              0              0              0             23         9999.9
+      0.9315069              0              0              0      0.8154033
+     0.05623471              0    -0.05989829      0.8685252       1.073529
+             -0              0              0       1.220582    -0.07902943
+             -0     0.08417805       1.145927              0      -2.783618
+      -4.103033             -0       3.073373       4.936095              0
+              0              0         9999.9             23         9999.9
+      0.9444444              0              0              0      0.9511568
+     0.06559702              0    -0.05989829      0.8685252       1.058824
+             -0              0              0       1.046375    -0.07902944
+             -0     0.07216377       1.145927              0      0.5821307
+      -4.103033             -0     -0.9333872       4.659767          -9999
+             23              0              0           9999         9999.9
+      0.9315069              0              0              0      0.9511568
+     0.06559702              0    -0.05989829      0.8685252       1.073529
+             -0              0              0       1.046375    -0.07902943
+             -0     0.07216376       1.145927              0      0.5821307
+      -4.103033             -0     -0.9333871       4.659766              0
+             23              0         9999.9           9999         9999.9
+      0.9444444              0              0              0      0.9976303
+     0.06880209              0    -0.06148272      0.8914994       1.058824
+             -0              0              0      0.9976304    -0.07699282
+             -0      0.0688021       1.116396              0      -3.405704
+      -4.211566             -0       3.073374       4.936095          -9999
+          -9999          -9999              0              0              0
+      0.9315069              0              0              0      0.9976303
+     0.06880209              0    -0.06148272      0.8914994       1.073529
+             -0              0              0      0.9976304    -0.07699282
+             -0      0.0688021       1.116396              0      -3.405704
+      -4.211566             -0       3.073374       4.936094              0
+          -9999          -9999         9999.9              0              0
+      0.9444444              0              0              0      0.8154033
+     0.05623471              0    -0.06148272      0.8914994       1.058823
+             -0              0              0       1.220582    -0.07699282
+             -0     0.08417805       1.116396              0      -2.783618
+      -4.211566             -0       3.073372       4.936094          -9999
+              0          -9999              0             23              0
+      0.9315069              0              0              0      0.8154033
+     0.05623471              0    -0.06148272      0.8914994       1.073529
+             -0              0              0       1.220582    -0.07699282
+             -0     0.08417805       1.116396              0      -2.783618
+      -4.211566             -0       3.073372       4.936094              0
+              0          -9999         9999.9             23              0
+      0.9444444              0              0              0      0.9511568
+     0.06559702              0    -0.06148272      0.8914994       1.058824
+             -0              0              0       1.046375    -0.07699282
+             -0     0.07216377       1.116396              0      0.5821307
+      -4.211566             -0      -0.933387       4.659766          -9999
+             23          -9999              0           9999              0
+      0.9315069              0              0              0      0.9511568
+     0.06559702              0    -0.06148272      0.8914994       1.073529
+             -0              0              0       1.046375    -0.07699282
+             -0     0.07216377       1.116396              0      0.5821307
+      -4.211566             -0     -0.9333872       4.659766              0
+             23          -9999         9999.9           9999              0
+
+type  = float-attribute
+name  = BRICK_STATS
+count = 150
+              0            0.7              0              1              0
+      0.9880001              0              1              0      0.9880001
+              0              1              0              1              0
+              1              0            0.9              0              1
+              0              1              0              1              0
+              1              0            0.9              0            0.9
+              0              1              0            0.9              0
+              1              0              1              0      0.9880001
+              0            0.9              0      0.8520001              0
+           1.02              0              1              0              1
+              0              1              0              1              0
+      0.3160001              0              1              0            0.9
+              0              1              0           0.98              0
+              1              0              1              0      0.4999999
+              0              1              0              1              0
+              1              0              1              0              1
+              0      0.9880001              0      0.6639999              0
+              1              0          0.828              0            0.7
+              0      0.9359999              0              1              0
+              1              0            0.9              0              1
+              0              1              0            0.7              0
+              1              0      0.6759999              0              1
+              0            0.9              0              1              0
+      0.7400001              0      0.9880001              0            0.9
+              0              1              0            0.7              0
+              1              0              1              0              1
+              0      0.9160001              0          0.756              0
+              1              0              1              0            0.9
+              0              1              0              1              0
+              1              0              1              0            0.9
+
+type = integer-attribute
+name = DATASET_RANK
+count = 8
+ 3 75 0 0 0
+ 0 0 0
+
+type = integer-attribute
+name = DATASET_DIMENSIONS
+count = 5
+ 161 191 151 0 0
+
+type = integer-attribute
+name = BRICK_TYPES
+count = 75
+ 0 0 0 0 0
+ 0 0 0 0 0
+ 0 0 0 0 0
+ 0 0 0 0 0
+ 0 0 0 0 0
+ 0 0 0 0 0
+ 0 0 0 0 0
+ 0 0 0 0 0
+ 0 0 0 0 0
+ 0 0 0 0 0
+ 0 0 0 0 0
+ 0 0 0 0 0
+ 0 0 0 0 0
+ 0 0 0 0 0
+ 0 0 0 0 0
+
+type  = float-attribute
+name  = BRICK_FLOAT_FACS
+count = 75
+    0.002745098    0.003921569     0.00387451    0.003921569     0.00387451
+    0.003921569    0.003921569    0.003921569    0.003529412    0.003921569
+    0.003921569    0.003921569    0.003921569    0.003529412    0.003529412
+    0.003921569    0.003529412    0.003921569    0.003921569     0.00387451
+    0.003529412    0.003341177          0.004    0.003921569    0.003921569
+    0.003921569    0.003921569    0.001239216    0.003921569    0.003529412
+    0.003921569    0.003843137    0.003921569    0.003921569    0.001960784
+    0.003921569    0.003921569    0.003921569    0.003921569    0.003921569
+     0.00387451    0.002603921    0.003921569    0.003247059    0.002745098
+    0.003670588    0.003921569    0.003921569    0.003529412    0.003921569
+    0.003921569    0.002745098    0.003921569     0.00265098    0.003921569
+    0.003529412    0.003921569    0.002901961     0.00387451    0.003529412
+    0.003921569    0.002745098    0.003921569    0.003921569    0.003921569
+    0.003592157    0.002964706    0.003921569    0.003921569    0.003529412
+    0.003921569    0.003921569    0.003921569    0.003921569    0.003529412
+
+type = string-attribute
+name = BRICK_LABS
+count = 994
+'AIPS_IP1~SPL_7M~Cerebellum_X_Hem~Cerebellum_V_Hem~wThalamus_Parietal.nii~Hippocampus_FD~Amygdala_SF~PAC_TE11~PMC_4p~Insula_Id1~Hippocampus_CA~hOC3v~IPC_PGa~PAC_TE12~Broca_44~Broca_45~PMC_4a~Amygdala_LB~Insula_Ig1~Cerebellum_IX_Verm~SPL_5L~wThalamus_Premotor.nii~Insula_Ig2~Cerebellum_I_IV_Hem~SPL_7A~PAC_TE10~PSC_2~Cerebellum_VIIa_crusI_Verm~Amygdala_CM~hOC4~Cerebellum_IX_Hem~wThalamus_Temporal.nii~Cerebellum_VIIIb_Hem~Cerebellum_VI_Hem~Hippocampus_HATA~wThalamus_Prefrontal.nii~premotor_6~Wernicke_TE30~hOC1~SII_OP2~Cerebellum_VIIIa_Verm~wThalamus_Somatosensory.nii~IPC_PFm~Cerebellum_X_Verm~hOC5~Cerebellum_VIIa_crusII_Verm~Hippocampus_SUB~Cerebellum_VI_Verm~SII_OP1~SPL_5Ci~Cerebellum_VIIa_crusII_Hem~AIPS_IP3~Cerebellum_VIIIa_Hem~wThalamus_Visual.nii~Hippocampus_EC~IPC_PFt~PSC_3b~Cerebellum_VIIb_Verm~Cerebellum_VIIb_Hem~IPC_PFcm~IPC_PF~AIPS_IP2~SPL_7P~SPL_5M~IPC_PGp~Cerebellum_VIIIb_Verm~wThalamus_Motor.nii~hOC2~SII_OP4~IPC_PFop~SII_OP3~Cerebellum_VIIa_crusI_Hem~PSC_3a~PSC_1~SPL_7PC~
+
+type = string-attribute
+name = BRICK_KEYWORDS
+count = 75
+'~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+type = string-attribute
+name = TEMPLATE_SPACE
+count = 7
+'TT_N27~
+
+type = integer-attribute
+name = INT_CMAP
+count = 1
+ 0
+
+type = string-attribute
+name = BYTEORDER_STRING
+count = 10
+'LSB_FIRST~
+
+type = integer-attribute
+name = ATLAS_PROB_MAP
+count = 1
+ 1
+
+type = string-attribute
+name = ATLAS_LABEL_TABLE
+count = 11235
+'# -----------     PMaps      ---------------------
+# ----------- Based on: /Volumes/Data/atlas/eickhoff/anatomy_May_02_2011/Anatomy/AllAreas_v18_MPM.mat --------------
+<atlas_point_list
+ ni_form="ni_group" >
+<ATLAS_POINT
+  data_type="atlas_point"
+  STRUCT="hIP1"
+  VAL="0"
+  OKEY="0"
+  GYoAR="0"
+  COG="0.0 0.0 0.0"
+  SB_LABEL="AIPS_IP1" />
+
+<ATLAS_POINT
+  data_type="atlas_point"
+  STRUCT="SPL (7M)"
+  VAL="1"
+  OKEY="1"
+  GYoAR="0"
+  COG="0.0 0.0 0.0"
+  SB_LABEL="SPL_7M" />
+
+<ATLAS_POINT
+  data_type="atlas_point"
+  STRUCT="Lobule X (Hem)"
+  VAL="2"
+  OKEY="2"
+  GYoAR="0"
+  COG="0.0 0.0 0.0"
+  SB_LABEL="Cerebellum_X_Hem" />
+
+<ATLAS_POINT
+  data_type="atlas_point"
+  STRUCT="Lobule V"
+  VAL="3"
+  OKEY="3"
+  GYoAR="0"
+  COG="0.0 0.0 0.0"
+  SB_LABEL="Cerebellum_V_Hem" />
+
+<ATLAS_POINT
+  data_type="atlas_point"
+  STRUCT="Th-Parietal"
+  VAL="4"
+  OKEY="4"
+  GYoAR="0"
+  COG="0.0 0.0 0.0"
+  SB_LABEL="wThalamus_Parietal.nii" />
+
+<ATLAS_POINT
+  data_type="atlas_point"
+  STRUCT="Hipp (FD)"
+  VAL="5"
+  OKEY="5"
+  GYoAR="0"
+  COG="0.0 0.0 0.0"
+  SB_LABEL="Hippocampus_FD" />
+
+<ATLAS_POINT
+  data_type="atlas_point"
+  STRUCT="Amyg (SF)"
+  VAL="6"
+  OKEY="6"
+  GYoAR="0"
+  COG="0.0 0.0 0.0"
+  SB_LABEL="Amygdala_SF" />
+
+<ATLAS_POINT
+  data_type="atlas_point"
+  STRUCT="TE 1.1"
+  VAL="7"
+  OKEY="7"
+  GYoAR="0"
+  COG="0.0 0.0 0.0"
+  SB_LABEL="PAC_TE11" />
+
+<ATLAS_POINT
+  data_type="atlas_point"
+  STRUCT="Area 4p"
+  VAL="8"
+  OKEY="8"
+  GYoAR="0"
+  COG="0.0 0.0 0.0"
+  SB_LABEL="PMC_4p" />
+
+<ATLAS_POINT
+  data_type="atlas_point"
+  STRUCT="Insula (Id1)"
+  VAL="9"
+  OKEY="9"
+  GYoAR="0"
+  COG="0.0 0.0 0.0"
+  SB_LABEL="Insula_Id1" />
+
+<ATLAS_POINT
+  data_type="atlas_point"
+  STRUCT="Hipp (CA)"
+  VAL="10"
+  OKEY="10"
+  GYoAR="0"
+  COG="0.0 0.0 0.0"
+  SB_LABEL="Hippocampus_CA" />
+
+<ATLAS_POINT
+  data_type="atlas_point"
+  STRUCT="hOC3v (V3v)"
+  VAL="11"
+  OKEY="11"
+  GYoAR="0"
+  COG="0.0 0.0 0.0"
+  SB_LABEL="hOC3v" />
+
+<ATLAS_POINT
+  data_type="atlas_point"
+  STRUCT="IPC (PGa)"
+  VAL="12"
+  OKEY="12"
+  GYoAR="0"
+  COG="0.0 0.0 0.0"
+  SB_LABEL="IPC_PGa" />
+
+<ATLAS_POINT
+  data_type="atlas_point"
+  STRUCT="TE 1.2"
+  VAL="13"
+  OKEY="13"
+  GYoAR="0"
+  COG="0.0 0.0 0.0"
+  SB_LABEL="PAC_TE12" />
+
+<ATLAS_POINT
+  data_type="atlas_point"
+  STRUCT="Area 44"
+  VAL="14"
+  OKEY="14"
+  GYoAR="0"
+  COG="0.0 0.0 0.0"
+  SB_LABEL="Broca_44" />
+
+<ATLAS_POINT
+  data_type="atlas_point"
+  STRUCT="Area 45"
+  VAL="15"
+  OKEY="15"
+  GYoAR="0"
+  COG="0.0 0.0 0.0"
+  SB_LABEL="Broca_45" />
+
+<ATLAS_POINT
+  data_type="atlas_point"
+  STRUCT="Area 4a"
+  VAL="16"
+  OKEY="16"
+  GYoAR="0"
+  COG="0.0 0.0 0.0"
+  SB_LABEL="PMC_4a" />
+
+<ATLAS_POINT
+  data_type="atlas_point"
+  STRUCT="Amyg (LB)"
+  VAL="17"
+  OKEY="17"
+  GYoAR="0"
+  COG="0.0 0.0 0.0"
+  SB_LABEL="Amygdala_LB" />
+
+<ATLAS_POINT
+  data_type="atlas_point"
+  STRUCT="Insula (Ig1)"
+  VAL="18"
+  OKEY="18"
+  GYoAR="0"
+  COG="0.0 0.0 0.0"
+  SB_LABEL="Insula_Ig1" />
+
+<ATLAS_POINT
+  data_type="atlas_point"
+  STRUCT="Lobule IX (Vermis)"
+  VAL="19"
+  OKEY="19"
+  GYoAR="0"
+  COG="0.0 0.0 0.0"
+  SB_LABEL="Cerebellum_IX_Verm" />
+
+<ATLAS_POINT
+  data_type="atlas_point"
+  STRUCT="SPL (5L)"
+  VAL="20"
+  OKEY="20"
+  GYoAR="0"
+  COG="0.0 0.0 0.0"
+  SB_LABEL="SPL_5L" />
+
+<ATLAS_POINT
+  data_type="atlas_point"
+  STRUCT="Th-Premotor"
+  VAL="21"
+  OKEY="21"
+  GYoAR="0"
+  COG="0.0 0.0 0.0"
+  SB_LABEL="wThalamus_Premotor.nii" />
+
+<ATLAS_POINT
+  data_type="atlas_point"
+  STRUCT="Insula (Ig2)"
+  VAL="22"
+  OKEY="22"
+  GYoAR="0"
+  COG="0.0 0.0 0.0"
+  SB_LABEL="Insula_Ig2" />
+
+<ATLAS_POINT
+  data_type="atlas_point"
+  STRUCT="Lobules I-IV (Hem)"
+  VAL="23"
+  OKEY="23"
+  GYoAR="0"
+  COG="0.0 0.0 0.0"
+  SB_LABEL="Cerebellum_I_IV_Hem" />
+
+<ATLAS_POINT
+  data_type="atlas_point"
+  STRUCT="SPL (7A)"
+  VAL="24"
+  OKEY="24"
+  GYoAR="0"
+  COG="0.0 0.0 0.0"
+  SB_LABEL="SPL_7A" />
+
+<ATLAS_POINT
+  data_type="atlas_point"
+  STRUCT="TE 1.0"
+  VAL="25"
+  OKEY="25"
+  GYoAR="0"
+  COG="0.0 0.0 0.0"
+  SB_LABEL="PAC_TE10" />
+
+<ATLAS_POINT
+  data_type="atlas_point"
+  STRUCT="Area 2"
+  VAL="26"
+  OKEY="26"
+  GYoAR="0"
+  COG="0.0 0.0 0.0"
+  SB_LABEL="PSC_2" />
+
+<ATLAS_POINT
+  data_type="atlas_point"
+  STRUCT="Lobule VIIa Crus I (Vermis)"
+  VAL="27"
+  OKEY="27"
+  GYoAR="0"
+  COG="0.0 0.0 0.0"
+  SB_LABEL="Cerebellum_VIIa_crusI_Verm" />
+
+<ATLAS_POINT
+  data_type="atlas_point"
+  STRUCT="Amyg (CM)"
+  VAL="28"
+  OKEY="28"
+  GYoAR="0"
+  COG="0.0 0.0 0.0"
+  SB_LABEL="Amygdala_CM" />
+
+<ATLAS_POINT
+  data_type="atlas_point"
+  STRUCT="hOC4v (V4)"
+  VAL="29"
+  OKEY="29"
+  GYoAR="0"
+  COG="0.0 0.0 0.0"
+  SB_LABEL="hOC4" />
+
+<ATLAS_POINT
+  data_type="atlas_point"
+  STRUCT="Lobule IX (Hem)"
+  VAL="30"
+  OKEY="30"
+  GYoAR="0"
+  COG="0.0 0.0 0.0"
+  SB_LABEL="Cerebellum_IX_Hem" />
+
+<ATLAS_POINT
+  data_type="atlas_point"
+  STRUCT="Th-Temporal"
+  VAL="31"
+  OKEY="31"
+  GYoAR="0"
+  COG="0.0 0.0 0.0"
+  SB_LABEL="wThalamus_Temporal.nii" />
+
+<ATLAS_POINT
+  data_type="atlas_point"
+  STRUCT="Lobule VIIIb (Hem)"
+  VAL="32"
+  OKEY="32"
+  GYoAR="0"
+  COG="0.0 0.0 0.0"
+  SB_LABEL="Cerebellum_VIIIb_Hem" />
+
+<ATLAS_POINT
+  data_type="atlas_point"
+  STRUCT="Lobule VI (Hem)"
+  VAL="33"
+  OKEY="33"
+  GYoAR="0"
+  COG="0.0 0.0 0.0"
+  SB_LABEL="Cerebellum_VI_Hem" />
+
+<ATLAS_POINT
+  data_type="atlas_point"
+  STRUCT="Hipp (HATA)"
+  VAL="34"
+  OKEY="34"
+  GYoAR="0"
+  COG="0.0 0.0 0.0"
+  SB_LABEL="Hippocampus_HATA" />
+
+<ATLAS_POINT
+  data_type="atlas_point"
+  STRUCT="Th-Prefrontal"
+  VAL="35"
+  OKEY="35"
+  GYoAR="0"
+  COG="0.0 0.0 0.0"
+  SB_LABEL="wThalamus_Prefrontal.nii" />
+
+<ATLAS_POINT
+  data_type="atlas_point"
+  STRUCT="Area 6"
+  VAL="36"
+  OKEY="36"
+  GYoAR="0"
+  COG="0.0 0.0 0.0"
+  SB_LABEL="premotor_6" />
+
+<ATLAS_POINT
+  data_type="atlas_point"
+  STRUCT="TE 3"
+  VAL="37"
+  OKEY="37"
+  GYoAR="0"
+  COG="0.0 0.0 0.0"
+  SB_LABEL="Wernicke_TE30" />
+
+<ATLAS_POINT
+  data_type="atlas_point"
+  STRUCT="Area 17"
+  VAL="38"
+  OKEY="38"
+  GYoAR="0"
+  COG="0.0 0.0 0.0"
+  SB_LABEL="hOC1" />
+
+<ATLAS_POINT
+  data_type="atlas_point"
+  STRUCT="OP 2"
+  VAL="39"
+  OKEY="39"
+  GYoAR="0"
+  COG="0.0 0.0 0.0"
+  SB_LABEL="SII_OP2" />
+
+<ATLAS_POINT
+  data_type="atlas_point"
+  STRUCT="Lobule VIIIa (Vermis)"
+  VAL="40"
+  OKEY="40"
+  GYoAR="0"
+  COG="0.0 0.0 0.0"
+  SB_LABEL="Cerebellum_VIIIa_Verm" />
+
+<ATLAS_POINT
+  data_type="atlas_point"
+  STRUCT="Th-Somatosensory"
+  VAL="41"
+  OKEY="41"
+  GYoAR="0"
+  COG="0.0 0.0 0.0"
+  SB_LABEL="wThalamus_Somatosensory.nii" />
+
+<ATLAS_POINT
+  data_type="atlas_point"
+  STRUCT="IPC (PFm)"
+  VAL="42"
+  OKEY="42"
+  GYoAR="0"
+  COG="0.0 0.0 0.0"
+  SB_LABEL="IPC_PFm" />
+
+<ATLAS_POINT
+  data_type="atlas_point"
+  STRUCT="Lobule X (Vermis)"
+  VAL="43"
+  OKEY="43"
+  GYoAR="0"
+  COG="0.0 0.0 0.0"
+  SB_LABEL="Cerebellum_X_Verm" />
+
+<ATLAS_POINT
+  data_type="atlas_point"
+  STRUCT="hOC5 (V5)"
+  VAL="44"
+  OKEY="44"
+  GYoAR="0"
+  COG="0.0 0.0 0.0"
+  SB_LABEL="hOC5" />
+
+<ATLAS_POINT
+  data_type="atlas_point"
+  STRUCT="Lobule VIIa Crus II (Vermis)"
+  VAL="45"
+  OKEY="45"
+  GYoAR="0"
+  COG="0.0 0.0 0.0"
+  SB_LABEL="Cerebellum_VIIa_crusII_Verm" />
+
+<ATLAS_POINT
+  data_type="atlas_point"
+  STRUCT="Hipp (SUB)"
+  VAL="46"
+  OKEY="46"
+  GYoAR="0"
+  COG="0.0 0.0 0.0"
+  SB_LABEL="Hippocampus_SUB" />
+
+<ATLAS_POINT
+  data_type="atlas_point"
+  STRUCT="Lobule VI (Vermis)"
+  VAL="47"
+  OKEY="47"
+  GYoAR="0"
+  COG="0.0 0.0 0.0"
+  SB_LABEL="Cerebellum_VI_Verm" />
+
+<ATLAS_POINT
+  data_type="atlas_point"
+  STRUCT="OP 1"
+  VAL="48"
+  OKEY="48"
+  GYoAR="0"
+  COG="0.0 0.0 0.0"
+  SB_LABEL="SII_OP1" />
+
+<ATLAS_POINT
+  data_type="atlas_point"
+  STRUCT="SPL (5Ci)"
+  VAL="49"
+  OKEY="49"
+  GYoAR="0"
+  COG="0.0 0.0 0.0"
+  SB_LABEL="SPL_5Ci" />
+
+<ATLAS_POINT
+  data_type="atlas_point"
+  STRUCT="Lobule VIIa Crus II (Hem)"
+  VAL="50"
+  OKEY="50"
+  GYoAR="0"
+  COG="0.0 0.0 0.0"
+  SB_LABEL="Cerebellum_VIIa_crusII_Hem" />
+
+<ATLAS_POINT
+  data_type="atlas_point"
+  STRUCT="hIP3"
+  VAL="51"
+  OKEY="51"
+  GYoAR="0"
+  COG="0.0 0.0 0.0"
+  SB_LABEL="AIPS_IP3" />
+
+<ATLAS_POINT
+  data_type="atlas_point"
+  STRUCT="Lobule VIIIa (Hem)"
+  VAL="52"
+  OKEY="52"
+  GYoAR="0"
+  COG="0.0 0.0 0.0"
+  SB_LABEL="Cerebellum_VIIIa_Hem" />
+
+<ATLAS_POINT
+  data_type="atlas_point"
+  STRUCT="Th-Visual"
+  VAL="53"
+  OKEY="53"
+  GYoAR="0"
+  COG="0.0 0.0 0.0"
+  SB_LABEL="wThalamus_Visual.nii" />
+
+<ATLAS_POINT
+  data_type="atlas_point"
+  STRUCT="Hipp (EC)"
+  VAL="54"
+  OKEY="54"
+  GYoAR="0"
+  COG="0.0 0.0 0.0"
+  SB_LABEL="Hippocampus_EC" />
+
+<ATLAS_POINT
+  data_type="atlas_point"
+  STRUCT="IPC (PFt)"
+  VAL="55"
+  OKEY="55"
+  GYoAR="0"
+  COG="0.0 0.0 0.0"
+  SB_LABEL="IPC_PFt" />
+
+<ATLAS_POINT
+  data_type="atlas_point"
+  STRUCT="Area 3b"
+  VAL="56"
+  OKEY="56"
+  GYoAR="0"
+  COG="0.0 0.0 0.0"
+  SB_LABEL="PSC_3b" />
+
+<ATLAS_POINT
+  data_type="atlas_point"
+  STRUCT="Lobule VIIb (Vermis)"
+  VAL="57"
+  OKEY="57"
+  GYoAR="0"
+  COG="0.0 0.0 0.0"
+  SB_LABEL="Cerebellum_VIIb_Verm" />
+
+<ATLAS_POINT
+  data_type="atlas_point"
+  STRUCT="Lobule VIIb (Hem)"
+  VAL="58"
+  OKEY="58"
+  GYoAR="0"
+  COG="0.0 0.0 0.0"
+  SB_LABEL="Cerebellum_VIIb_Hem" />
+
+<ATLAS_POINT
+  data_type="atlas_point"
+  STRUCT="IPC (PFcm)"
+  VAL="59"
+  OKEY="59"
+  GYoAR="0"
+  COG="0.0 0.0 0.0"
+  SB_LABEL="IPC_PFcm" />
+
+<ATLAS_POINT
+  data_type="atlas_point"
+  STRUCT="IPC (PF)"
+  VAL="60"
+  OKEY="60"
+  GYoAR="0"
+  COG="0.0 0.0 0.0"
+  SB_LABEL="IPC_PF" />
+
+<ATLAS_POINT
+  data_type="atlas_point"
+  STRUCT="hIP2"
+  VAL="61"
+  OKEY="61"
+  GYoAR="0"
+  COG="0.0 0.0 0.0"
+  SB_LABEL="AIPS_IP2" />
+
+<ATLAS_POINT
+  data_type="atlas_point"
+  STRUCT="SPL (7P)"
+  VAL="62"
+  OKEY="62"
+  GYoAR="0"
+  COG="0.0 0.0 0.0"
+  SB_LABEL="SPL_7P" />
+
+<ATLAS_POINT
+  data_type="atlas_point"
+  STRUCT="SPL (5M)"
+  VAL="63"
+  OKEY="63"
+  GYoAR="0"
+  COG="0.0 0.0 0.0"
+  SB_LABEL="SPL_5M" />
+
+<ATLAS_POINT
+  data_type="atlas_point"
+  STRUCT="IPC (PGp)"
+  VAL="64"
+  OKEY="64"
+  GYoAR="0"
+  COG="0.0 0.0 0.0"
+  SB_LABEL="IPC_PGp" />
+
+<ATLAS_POINT
+  data_type="atlas_point"
+  STRUCT="Lobule VIIIb (Vermis)"
+  VAL="65"
+  OKEY="65"
+  GYoAR="0"
+  COG="0.0 0.0 0.0"
+  SB_LABEL="Cerebellum_VIIIb_Verm" />
+
+<ATLAS_POINT
+  data_type="atlas_point"
+  STRUCT="Th-Motor"
+  VAL="66"
+  OKEY="66"
+  GYoAR="0"
+  COG="0.0 0.0 0.0"
+  SB_LABEL="wThalamus_Motor.nii" />
+
+<ATLAS_POINT
+  data_type="atlas_point"
+  STRUCT="Area 18"
+  VAL="67"
+  OKEY="67"
+  GYoAR="0"
+  COG="0.0 0.0 0.0"
+  SB_LABEL="hOC2" />
+
+<ATLAS_POINT
+  data_type="atlas_point"
+  STRUCT="OP 4"
+  VAL="68"
+  OKEY="68"
+  GYoAR="0"
+  COG="0.0 0.0 0.0"
+  SB_LABEL="SII_OP4" />
+
+<ATLAS_POINT
+  data_type="atlas_point"
+  STRUCT="IPC (PFop)"
+  VAL="69"
+  OKEY="69"
+  GYoAR="0"
+  COG="0.0 0.0 0.0"
+  SB_LABEL="IPC_PFop" />
+
+<ATLAS_POINT
+  data_type="atlas_point"
+  STRUCT="OP 3"
+  VAL="70"
+  OKEY="70"
+  GYoAR="0"
+  COG="0.0 0.0 0.0"
+  SB_LABEL="SII_OP3" />
+
+<ATLAS_POINT
+  data_type="atlas_point"
+  STRUCT="Lobule VIIa Crus I (Hem)"
+  VAL="71"
+  OKEY="71"
+  GYoAR="0"
+  COG="0.0 0.0 0.0"
+  SB_LABEL="Cerebellum_VIIa_crusI_Hem" />
+
+<ATLAS_POINT
+  data_type="atlas_point"
+  STRUCT="Area 3a"
+  VAL="72"
+  OKEY="72"
+  GYoAR="0"
+  COG="0.0 0.0 0.0"
+  SB_LABEL="PSC_3a" />
+
+<ATLAS_POINT
+  data_type="atlas_point"
+  STRUCT="Area 1"
+  VAL="73"
+  OKEY="73"
+  GYoAR="0"
+  COG="0.0 0.0 0.0"
+  SB_LABEL="PSC_1" />
+
+<ATLAS_POINT
+  data_type="atlas_point"
+  STRUCT="SPL (7PC)"
+  VAL="74"
+  OKEY="74"
+  GYoAR="0"
+  COG="0.0 0.0 0.0"
+  SB_LABEL="SPL_7PC" />
+
+</atlas_point_list>~

@@ -1,0 +1,11 @@
+apps:
+  singularity:
+    command: command-singularity.wrapper
+architectures:
+- amd64
+confinement: strict
+description: THIS IS ALSO A TEST
+grade: stable
+name: singularity
+summary: THIS IS A TEST
+version: beta

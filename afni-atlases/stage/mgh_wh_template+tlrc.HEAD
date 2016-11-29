@@ -1,0 +1,121 @@
+
+type = string-attribute
+name = HISTORY_NOTE
+count = 1249
+'[swh@batman: Mon Sep  5 08:54:40 2011] to3d -orient RSA -xFOV 8R-L -yFOV 12I-0.5S -zSLAB 4.2A-16.3P -prefix anat2 -time:zt 42 0 1000ms zero 3D:0:0:64:50:42:template.bshort\n[swh@batman: Mon Sep  5 23:54:06 2011] 3drefit -view tlrc anat2+orig.\n[dglen@gollum.nimh.nih.gov: Thu Feb 16 17:30:39 2012] 3drefit -space paxinos_rat_2007@Elsevier anat2+tlrc.\n[dglen@gollum.nimh.nih.gov: Fri Feb 17 16:23:40 2012] 3dresample -master pax_rat_karolinska+tlrc. -prefix mgh_hw_rs -inset anat2+tlrc.\n[dglen@gollum.nimh.nih.gov: Fri Feb 17 17:25:50 2012] 3dcopy mgh_hw_rs+tlrc mgh_hw_template\n[dglen@gollum.nimh.nih.gov: Thu Mar  8 14:29:19 2012] 3drefit -space paxinos_rat_2007 RARE_rat_brain+tlrc.HEAD RARE_rat_brain_al2karolrat+tlrc.HEAD anat2+tlrc.HEAD mgh_hw_rs+tlrc.HEAD mgh_hw_rs_as+tlrc.HEAD mgh_hw_rs_as2+tlrc.HEAD mgh_hw_rs_as3+tlrc.HEAD mgh_wh_am+tlrc.HEAD mgh_wh_template+tlrc.HEAD newTEMPLATE2+tlrc.HEAD pax_rat_else_tissue+tlrc.HEAD pax_rat_karolinska+tlrc.HEAD pax_rat_karolinska_al2mgh2+tlrc.HEAD pax_rat_karolinska_al2mgh3+tlrc.HEAD pax_rat_karolinska_ns+tlrc.HEAD pax_rat_karolinska_old+tlrc.HEAD pax_rat_karolinska_template+tlrc.HEAD paxinos_elsevier_tissue_lores+tlrc.HEAD paxinos_elsevier_tissue_template+tlrc.HEAD rat_karolinska+tlrc.HEAD~
+
+type = string-attribute
+name = TYPESTRING
+count = 15
+'3DIM_HEAD_ANAT~
+
+type = string-attribute
+name = IDCODE_STRING
+count = 27
+'AFN_zry2OyvHoETCAmQOaRJZGg~
+
+type = string-attribute
+name = IDCODE_DATE
+count = 25
+'Fri Feb 17 17:25:50 2012~
+
+type = integer-attribute
+name = SCENE_DATA
+count = 8
+ 2 0 0 -999 -999
+ -999 -999 -999
+
+type = string-attribute
+name = LABEL_1
+count = 5
+'zyxt~
+
+type = string-attribute
+name = LABEL_2
+count = 5
+'zyxt~
+
+type = string-attribute
+name = DATASET_NAME
+count = 5
+'zyxt~
+
+type = integer-attribute
+name = ORIENT_SPECIFIC
+count = 3
+ 0 5 2
+
+type  = float-attribute
+name  = ORIGIN
+count = 3
+           -7.9      0.4999999           15.5
+
+type  = float-attribute
+name  = DELTA
+count = 3
+            0.2           -0.2           -0.2
+
+type  = float-attribute
+name  = IJK_TO_DICOM
+count = 12
+            0.2              0              0           -7.9              0
+              0           -0.2           15.5              0           -0.2
+              0      0.4999999
+
+type  = float-attribute
+name  = IJK_TO_DICOM_REAL
+count = 12
+            0.2              0              0           -7.9              0
+              0           -0.2           15.5              0           -0.2
+              0      0.4999999
+
+type  = float-attribute
+name  = BRICK_STATS
+count = 2
+             -2          15180
+
+type = integer-attribute
+name = DATASET_RANK
+count = 8
+ 3 1 0 0 0
+ 0 0 0
+
+type = integer-attribute
+name = DATASET_DIMENSIONS
+count = 5
+ 80 63 108 0 0
+
+type = integer-attribute
+name = BRICK_TYPES
+count = 1
+ 1
+
+type  = float-attribute
+name  = BRICK_FLOAT_FACS
+count = 1
+              0
+
+type = string-attribute
+name = BRICK_LABS
+count = 3
+'#0~
+
+type = string-attribute
+name = BRICK_KEYWORDS
+count = 1
+'~
+
+type = string-attribute
+name = TEMPLATE_SPACE
+count = 17
+'paxinos_rat_2007~
+
+type = integer-attribute
+name = INT_CMAP
+count = 1
+ 0
+
+type = string-attribute
+name = BYTEORDER_STRING
+count = 10
+'LSB_FIRST~
