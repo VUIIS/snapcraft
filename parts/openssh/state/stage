@@ -1,0 +1,15 @@
+!StageState
+directories: !!set {bin: null, etc: null, libexec: null, sbin: null, share: null,
+  share/man: null, share/man/man1: null, share/man/man5: null, share/man/man8: null,
+  var: null, var/empty: null}
+files: !!set {bin/scp: null, bin/sftp: null, bin/ssh: null, bin/ssh-add: null, bin/ssh-agent: null,
+  bin/ssh-keygen: null, bin/ssh-keyscan: null, etc/moduli: null, etc/ssh_config: null,
+  etc/sshd_config: null, libexec/sftp-server: null, libexec/ssh-keysign: null, libexec/ssh-pkcs11-helper: null,
+  sbin/sshd: null, share/man/man1/scp.1: null, share/man/man1/sftp.1: null, share/man/man1/ssh-add.1: null,
+  share/man/man1/ssh-agent.1: null, share/man/man1/ssh-keygen.1: null, share/man/man1/ssh-keyscan.1: null,
+  share/man/man1/ssh.1: null, share/man/man5/moduli.5: null, share/man/man5/ssh_config.5: null,
+  share/man/man5/sshd_config.5: null, share/man/man8/sftp-server.8: null, share/man/man8/ssh-keysign.8: null,
+  share/man/man8/ssh-pkcs11-helper.8: null, share/man/man8/sshd.8: null}
+project_options: {}
+properties:
+  stage: ['*']
