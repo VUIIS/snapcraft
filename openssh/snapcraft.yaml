@@ -1,0 +1,14 @@
+name: openssh-server
+version: beta
+summary: THIS IS A TEST
+description: THIS IS ALSO A TEST
+
+apps:
+  openssh:
+    command: bin/ssh
+parts:
+  openssh:
+    source: https://github.com/openssh/openssh-portable.git
+    source-type: git
+    build-packages: 
+      - g++  
