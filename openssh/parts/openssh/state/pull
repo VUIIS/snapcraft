@@ -1,5 +1,0 @@
-!PullState
-project_options: {deb_arch: amd64}
-properties: {source: 'https://github.com/openssh/openssh-portable.git', source-branch: null,
-  source-subdir: null, source-tag: null, source-type: null}
-schema_properties: [source, source-type, source-branch, source-tag, source-subdir]
