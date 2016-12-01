@@ -1,0 +1,15 @@
+name: dcm2niix
+version: beta
+summary: THIS IS A TEST
+description: THIS IS ALSO A TEST
+
+apps:
+  dcm2niix:
+    command: bin/dcm2niix
+parts:
+  dcm2niix:
+    plugin: cmake
+    source: https://github.com/rordenlab/dcm2niix
+    source-type: git 
+    build-packages:
+      - g++
