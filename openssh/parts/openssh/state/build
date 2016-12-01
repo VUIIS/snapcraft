@@ -1,7 +1,0 @@
-!BuildState
-project_options: {deb_arch: amd64}
-properties:
-  configflags: []
-  disable-parallel: null
-  install-via: null
-schema_properties: [disable-parallel, configflags, install-via]
