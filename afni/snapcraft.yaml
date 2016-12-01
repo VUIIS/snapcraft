@@ -1,0 +1,424 @@
+name: afni
+version: beta
+summary: THIS IS A TEST
+description: THIS IS ALSO A TEST
+
+apps:
+  afni:
+    command: afni
+  afni:
+    command: 3dCRUISEtoAFNI
+  afni:
+    command: 3dConvolve
+  afni:
+    command: 3dLME
+  afni:
+    command: 3dLSS
+  afni:
+    command: 3dmatmult
+  afni:
+    command: 3dmerge
+  afni:
+    command: 3dTshift
+  afni:
+    command: 3dBandpass
+  afni:
+    command: 3dTsmooth
+  afni:
+    command: 3dbucket
+  afni:
+    command: 3dEntropy
+  afni:
+    command: 3dRetinoPhase
+  afni:
+    command: 3dfim+
+  afni:
+    command: 3dNwarpXYZ
+  afni:
+    command: 3dWavelets
+  afni:
+    command: 3dAutoTcorrelate
+  afni:
+    command: 3dNwarpCalc
+  afni:
+    command: 3dPolyfit
+  afni:
+    command: 3dnoise
+  afni:
+    command: 3dTcat
+  afni:
+    command: 3drotate
+  afni:
+    command: 3dfim
+  afni:
+    command: 3dTSgen
+  afni:
+    command: 3dAllineate
+  afni:
+    command: 3dThreetoRGB
+  afni:
+    command: 3dRegAna
+  afni:
+    command: 3dDWItoDT
+  afni:
+    command: 3dDTeig
+  afni:
+    command: 3dAFNIto3D
+  afni:
+    command: 3dMannWhitney
+  afni:
+    command: 3dRank
+  afni:
+    command: 3dretroicor
+  afni:
+    command: 3dFWHMx
+  afni:
+    command: 3dPeriodogram
+  afni:
+    command: 3dRankizer
+  afni:
+    command: 3dROIMaker
+  afni:
+    command: 3dbuc2fim
+  afni:
+    command: 3dHist
+  afni:
+    command: 3dVol2Surf
+  afni:
+    command: 3dAutobox
+  afni:
+    command: 3dZcat
+  afni:
+    command: 3dTORTOISEtoHere
+  afni:
+    command: 3dMVM
+  afni:
+    command: 3dSignatures
+  afni:
+    command: 3dkmeans
+  afni:
+    command: 3dROIstats
+  afni:
+    command: 3dUniformize
+  afni:
+    command: 3dmaskSVD
+  afni:
+    command: 3dRSFC
+  afni:
+    command: 3dSeg
+  afni:
+    command: 3dECM
+  afni:
+    command: 3ddata.h
+  afni:
+    command: 3dEigsToDT
+  afni:
+    command: 3dTfitter
+  afni:
+    command: 3dClustCount
+  afni:
+    command: 3dLocalSVD
+  afni:
+    command: 3dcalc
+  afni:
+    command: 3dLFCD
+  afni:
+    command: 3dANOVA2
+  afni:
+    command: 3dCM
+  afni:
+    command: 3dTagalign
+  afni:
+    command: 3dAFNItoRaw
+  afni:
+    command: 3dMEMA
+  afni:
+    command: 3dmask_tool
+  afni:
+    command: 3dNotes
+  afni:
+    command: 3dTcorrMap
+  afni:
+    command: 3dMaskToASCII
+  afni:
+    command: 3dLocalHistog
+  afni:
+    command: 3dTqual
+  afni:
+    command: 3dUpsample
+  afni:
+    command: 3dLocalPV
+  afni:
+    command: 3dNwarpAdjust
+  afni:
+    command: 3dBlurToFWHM
+  afni:
+    command: 3dCountSpikes
+  afni:
+    command: 3dDespike
+  afni:
+    command: 3dXClustSim
+  afni:
+    command: 3dMedianFilter
+  afni:
+    command: 3dSpaceTimeCorr
+  afni:
+    command: 3dOverlap
+  afni:
+    command: 3dBrickStat
+  afni:
+    command: 3dAnhist
+  afni:
+    command: 3dTrackID
+  afni:
+    command: 3dresample
+  afni:
+    command: 3dDeconvolve_f
+  afni:
+    command: 3dBRAIN_VOYAGERtoAFNI
+  afni:
+    command: 3dDWUncert
+  afni:
+    command: 3dsvm
+  afni:
+    command: 3dMSE
+  afni:
+    command: 3dNetCorr
+  afni:
+    command: 3dMatch
+  afni:
+    command: 3dMean
+  afni:
+    command: 3dToyProg
+  afni:
+    command: 3dGenFeatureDist
+  afni:
+    command: 3dEmpty
+  afni:
+    command: 3dSurf2Vol
+  afni:
+    command: 3dSpatNorm
+  afni:
+    command: 3dWarpDrive
+  afni:
+    command: 3dBlurInMask
+  afni:
+    command: 3dttest
+  afni:
+    command: 3drename
+  afni:
+    command: 3dZregrid
+  afni:
+    command: 3dIntracranial
+  afni:
+    command: 3dREMLfit
+  afni:
+    command: 3dGenPriors
+  afni:
+    command: 3dWilcoxon
+  afni:
+    command: 3dtoXdataset
+  afni:
+    command: 3dUnifize
+  afni:
+    command: 3dLocalACF
+  afni:
+    command: 3dnewid
+  afni:
+    command: 3dcopy
+  afni:
+    command: 3dAttribute
+  afni:
+    command: 3dMax
+  afni:
+    command: 3dAcost
+  afni:
+    command: 3dConformist
+  afni:
+    command: 3dTcorrelate
+  afni:
+    command: 3dhistog
+  afni:
+    command: 3dAFNItoMINC
+  afni:
+    command: 3dLRflip
+  afni:
+    command: 3dDTtoDWI
+  afni:
+    command: 3dUndump
+  afni:
+    command: 3dZeropad
+  afni:
+    command: 3dNwarpFuncs
+  afni:
+    command: 3dTsort
+  afni:
+    command: 3ddup
+  afni:
+    command: 3ddelay
+  afni:
+    command: 3dpc
+  afni:
+    command: 3dMINCtoAFNI
+  afni:
+    command: 3dQwarp
+  afni:
+    command: 3dNwarpCat
+  afni:
+    command: 3dFWHM
+  afni:
+    command: 3dReHo
+  afni:
+    command: 3dProbTrackID
+  afni:
+    command: 3dnvals
+  afni:
+    command: 3dDetrend
+  afni:
+    command: 3dLocalstat
+  afni:
+    command: 3dGroupInCorr
+  afni:
+    command: 3dNwarpApply
+  afni:
+    command: 3dfractionize
+  afni:
+    command: 3dTcorr1D
+  afni:
+    command: 3dAnatNudge
+  afni:
+    command: 3dclust
+  afni:
+    command: 3dWarp
+  afni:
+    command: 3dANOVA
+  afni:
+    command: 3dSetupGroupInCorr
+  afni:
+    command: 3dSurfMask
+  afni:
+    command: 3dedge3
+  afni:
+    command: 3dproject
+  afni:
+    command: 3dinfill
+  afni:
+    command: 3dRprogDemo
+  afni:
+    command: 3dFriedman
+  afni:
+    command: 3ddot
+  afni:
+    command: 3dAFNItoNIFTI
+  afni:
+    command: 3dClustSim
+  afni:
+    command: 3dvolreg
+  afni:
+    command: 3dsvm_linpredict
+  afni:
+    command: 3daxialize
+  afni:
+    command: 3dStatClust
+  afni:
+    command: 3ddot_beta
+  afni:
+    command: 3dSynthesize
+  afni:
+    command: 3dExtrema
+  afni:
+    command: 3dDFT
+  afni:
+    command: 3dZcutup
+  afni:
+    command: 3dNLfim
+  afni:
+    command: 3dANALYZEtoAFNI
+  afni:
+    command: 3dFDR
+  afni:
+    command: 3danisosmooth
+  afni:
+    command: 3dTwotoComplex
+  afni:
+    command: 3dToutcount
+  afni:
+    command: 3dAmpToRSFC
+  afni:
+    command: 3dDeconvolve
+  afni:
+    command: 3dErrtsCormat
+  afni:
+    command: 3dSkullStrip
+  afni:
+    command: 3dPFM
+  afni:
+    command: 3dWinsor
+  afni:
+    command: 3dmaxima
+  afni:
+    command: 3dRowFillin
+  afni:
+    command: 3dGetrow
+  afni:
+    command: 3dPval
+  afni:
+    command: 3dDTtoNoisyDWI
+  afni:
+    command: 3dXYZcat
+  afni:
+    command: 3dANOVA3
+  afni:
+    command: 3dFFT
+  afni:
+    command: 3dDegreeCentrality
+  afni:
+    command: 3dmaskdump
+  afni:
+    command: 3dABoverlap
+  afni:
+    command: 3dTstat
+  afni:
+    command: 3dttest++
+  afni:
+    command: 3dLocalBistat
+  afni:
+    command: 3dAFNItoANALYZE
+  afni:
+    command: 3dAutomask
+  afni:
+    command: 3dVecRGB_to_HSL
+  afni:
+    command: 3dTnorm
+  afni:
+    command: 3dLombScargle
+  afni:
+    command: 3dinfo
+  afni:
+    command: 3dMultiThresh
+  afni:
+    command: 3dmatcalc
+  afni:
+    command: 3dInvFMRI
+  afni:
+    command: 3dAFNItoNIML
+  afni:
+    command: 3dKruskalWallis
+  afni:
+    command: 3dmaskave
+  afni:
+    command: 3dTRfix
+  afni:
+    command: 3dTproject
+  afni:
+    command: 3dNormalityTest
+  afni:
+    command: 3dClipLevel
+  afni:
+    command: 3dFourier
+  afni:
+    command: 3drefit
+parts:
+  afni:
+    source: https://afni.nimh.nih.gov/pub/dist/tgz/linux_openmp_64.tgz
+    plugin: dump
