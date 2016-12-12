@@ -1,0 +1,14 @@
+name: sshfs
+version: beta
+summary: sshfs 
+description: same as above
+
+apps:
+  sshfs:
+    command: bin/sshfs
+parts:
+  sshfs:
+    plugin: cmake
+    source: https://github.com/libfuse/sshfs.git
+    build-packages:
+      - g++

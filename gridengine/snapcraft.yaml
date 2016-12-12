@@ -1,0 +1,15 @@
+name: gridengine
+version: beta
+summary: gridengine
+description: same as above
+
+apps:
+  gridengine:
+    command: INSTALL
+parts:
+  gridengine:
+    plugin: dump
+    source: https://launchpad.net/ubuntu/+archive/primary/+files/gridengine_8.1.9+dfsg.orig.tar.gz
+    build-packages:
+      - g++
+

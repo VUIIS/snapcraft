@@ -1,0 +1,14 @@
+name: sysstat
+version: beta
+summary: sysstat 11.5.2 2016-11-04
+description: same as above
+
+apps:
+  sysstat:
+    command: Makefile.in
+parts:
+  systat:
+    plugin: cmake
+    source: http://pagesperso-orange.fr/sebastien.godard/sysstat-11.5.2.tar.gz
+    build-packages:
+      - g++

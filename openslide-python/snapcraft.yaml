@@ -1,0 +1,15 @@
+name: openslide-python
+version: beta
+summary: openslide-python
+description: same as above
+
+apps:
+  openslide-python:
+    command: Makefile.in
+parts:
+  openslide-python:
+    plugin: dump
+    source: https://github.com/openslide/openslide/releases/download/v3.4.1/openslide-3.4.1.tar.gz
+    build-packages:
+      - g++
+

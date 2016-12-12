@@ -1,0 +1,15 @@
+name: python-dipy
+version: beta
+summary: python-dipy
+description: same as above
+
+apps:
+  python-dipy:
+    command: Makefile
+parts:
+  python-dipy:
+    plugin: dump
+    source: https://github.com/nipy/dipy.git
+    build-packages:
+      - g++
+

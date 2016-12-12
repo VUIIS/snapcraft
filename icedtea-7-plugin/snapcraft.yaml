@@ -1,0 +1,12 @@
+name: icedtea-7-plugin
+version: beta
+summary: icedtea-7-plugin
+description: same as above
+
+apps:
+  icedtea-7-plugin:
+    command: Makefile.in
+parts:
+  icedteat-7-plugin:
+    plugin: dump
+    source: http://icedtea.wildebeest.org/download/source/icedtea-3.2.0.tar.gz

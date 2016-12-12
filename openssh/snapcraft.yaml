@@ -1,0 +1,14 @@
+name: openssh
+version: beta
+summary: openserver-ssh download
+description: same as above
+
+apps:
+  openssh:
+    command: bin/ssh 
+parts:
+  openssh:
+    source: https://github.com/openssh/openssh-portable
+    source-type: git
+    build-packages:
+      - g++

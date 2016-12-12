@@ -1,0 +1,12 @@
+name: afni-atlases
+version: beta
+summary: THIS IS A TEST
+description: THIS IS ALSO A TEST
+
+apps:
+  afni-atlases:
+    command: bin/afni-atlases 
+parts:
+  afni-atlases:
+    plugin: dump
+    source: https://afni.nimh.nih.gov/pub/dist/tgz/linux_openmp_64.tgz

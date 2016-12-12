@@ -1,0 +1,17 @@
+name: pandas
+version: beta
+summary: THIS IS A TEST
+description: THIS IS ALSO A TEST
+
+apps:
+  pandas:
+    command:./bin/pandas
+parts:
+  pandas:
+    plugin: python2
+    source: https://pypi.python.org/packages/05/ce/e3534d549710084d2c1bac7e708c671c7f23d7ddae88824f4001ecf64608/pandas-0.18.1-cp35-cp35m-manylinux1_x86_64.whl#md5=403479dc77fb68edd76bb2c457944074
+    stage-packages: 
+	-numpy
+	-python-dateutil
+	-pytz
+

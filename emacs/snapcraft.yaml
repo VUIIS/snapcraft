@@ -1,0 +1,24 @@
+name: emacs
+version: beta
+summary: emacs
+description: same as above
+
+apps:
+  emacs:
+    command: Makefile.in
+parts:
+  emacs:
+    plugin: dump
+    source: https://ftp.gnu.org/gnu/emacs/emacs-25.1.tar.xz 
+    build-packages:
+      - g++
+
+
+
+
+
+
+
+
+
+

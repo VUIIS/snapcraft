@@ -1,0 +1,12 @@
+name: cifs-utils
+version: beta
+summary: cifs-utils
+description: same as above
+
+apps:
+  cifs-utils:
+    command: Makefile.in
+parts:
+   cifs-utils:
+      plugin: dump
+      source: https://download.samba.org/pub/linux-cifs/cifs-utils/cifs-utils-6.6.tar.bz2

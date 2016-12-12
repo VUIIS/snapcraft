@@ -1,0 +1,31 @@
+name: pyxnat
+<<<<<<< HEAD
+version: beta
+summary: THIS IS A TEST
+description: THIS IS ALSO A TEST
+
+apps:
+  pyxnat:
+    command: 
+parts:
+  pyxnat:
+    plugin: python2
+    source: https://pypi.python.org/packages/d4/ec/a7c426d905c183a722f143e67e801d21524641e39d6720a9c4b65496dd19/pyxnat-1.0.0.0.tar.gz#md5=a3685c3916b50f16eb2f2daa226a7bedi
+=======
+version: 1.0.0
+summary: THIS IS A TEST
+description: THIS IS ALSO A TEST
+
+parts:
+  pyxnat:
+    plugin: python2
+    source: https://github.com/pyxnat/pyxnat
+    source-type: git 
+    build-packages:
+      - python-requests
+    stage-packages:
+      - python-requests 
+    python-packages:
+      - requests
+      - lxml
+>>>>>>> daad38adb79f17af5bb00353cd523496dbaeaae6

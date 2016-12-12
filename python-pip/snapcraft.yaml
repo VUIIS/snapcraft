@@ -1,0 +1,16 @@
+name: python-pip
+version: beta
+summary: python-pip
+description: same as above
+
+apps:
+  python-pip:
+    command: Makefile.in
+parts:
+  python-pip:
+    plugin: dump
+    source: https://github.com/openslide/openslide/releases/download/v3.4.1/openslide-3.4.1.tar.gz
+    build-packages:
+      - g++
+
+

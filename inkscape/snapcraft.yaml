@@ -1,0 +1,12 @@
+name: inkscape
+version: beta
+summary: inkscape
+description: same as above
+
+apps:
+  inkscape:
+    command: Makefile.in
+parts:
+  inkscape:
+    plugin: dump
+    source: https://inkscape.org/en/gallery/item/8411/inkscape-0.48.5.tar.gz

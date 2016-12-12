@@ -1,0 +1,13 @@
+name: eclipse
+version: beta
+summary: eclipse neon
+description: same as above
+
+apps:
+  eclipse:
+    command: bin/eclipse
+parts:
+  eclipse:
+    plugin: dump
+    source: http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/mars/R/eclipse-jee-mars-R-linux-gtk-x86_64.tar.gz
+

@@ -1,0 +1,14 @@
+name: nfs-utils
+version: beta
+summary: nfs-utils 1.3.4
+description: same as above
+
+apps:
+  nfs-utils:
+    command: Makefile.in
+parts:
+   nfs-utils:
+     plugin: cmake
+     source: https://sourceforge.net/projects/nfs/files/nfs-utils/1.3.4/nfs-utils-1.3.4.tar.gz
+     build-packages:
+       - g++

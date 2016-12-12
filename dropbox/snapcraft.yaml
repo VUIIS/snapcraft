@@ -1,0 +1,15 @@
+name: dropbox
+version: beta
+summary: dropbox
+description: dropbox
+
+apps:
+  dropbox:
+    command: ./dropbox-lnx.x86_64-15.4.22/dropbox
+
+parts:
+  dropbox:
+    plugin: dump
+    source-type: tar
+    source: https://www.dropbox.com/download?plat=lnx.x86_64 
+

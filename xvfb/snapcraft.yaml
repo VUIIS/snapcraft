@@ -1,0 +1,16 @@
+name: xvfb
+version: beta
+summary: xvfb
+description: xvfb
+
+apps:
+  xvfb:
+    command: MANIFEST.in
+parts:
+  xvfb:
+    plugin: dump
+    source: https://github.com/cgoldberg/xvfbwrapper.git
+    source-type: git
+    build-packages:
+      - g++
+

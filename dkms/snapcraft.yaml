@@ -1,0 +1,14 @@
+name: dkms
+version: beta
+summary: dkms 2.2.0.3
+description: same as above
+
+apps:
+  dkms:
+    command: Makefile.in
+parts:
+   dkms:
+      plugin: dump
+      source: https://slackbuilds.org/slackbuilds/14.0/development/dkms.tar.gz
+      build-packages:
+        - g++

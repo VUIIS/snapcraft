@@ -1,0 +1,12 @@
+name: vlc
+version: beta
+summary: vlc
+description: same as above
+
+apps:
+  vlc:
+    command: Makefile.in
+parts:
+   vlc:
+     plugin: dump
+     source: http://videolan-nyc.defaultroute.com/vlc/2.2.4/vlc-2.2.4.tar.xz

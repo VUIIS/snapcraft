@@ -1,0 +1,15 @@
+name: gimp
+version: beta
+summary: gimp
+description: gimp
+
+apps:
+  gimp:
+    command: INSTALL.in
+parts:
+  gimp:
+    plugin: dump
+    source: https://github.com/GNOME/gimp
+    source-type: git
+    build-packages:
+      - g++

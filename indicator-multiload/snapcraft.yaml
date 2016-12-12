@@ -1,0 +1,14 @@
+name: indicator-multiload
+version: beta
+summary: indicator-multiload 0.4
+description: same as above
+
+apps:
+  indicator-multiload:
+    command: Makefile.in
+parts:
+  indicator-multiload:
+    plugin: cmake
+    source: https://launchpad.net/indicator-multiload/stable/0.4/+download/indicator-multiload-0.4.tar.gz
+    build-packages:
+      - g++
