@@ -1,0 +1,14 @@
+name: htop
+version: beta
+summary: htop download
+description: htop is an interactive text-mode process viewer for Unix Systems. It aims to be a better top
+
+apps:
+  htop:
+    command: bin/htop 
+parts:
+  openssh:
+    source: https://github.com/hishamhm/htop.git
+    source-type: git
+    build-packages:
+      - g++

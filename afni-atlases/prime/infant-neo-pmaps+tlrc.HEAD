@@ -1,0 +1,158 @@
+
+type = string-attribute
+name = HISTORY_NOTE
+count = 1237
+'[dglen@gollum.nimh.nih.gov: Thu Mar  7 17:44:50 2013] 3drefit -view tlrc -space unc_infant_neo infant-neo-aal.nii.gz infant-neo-avgseg.nii.gz infant-neo-seg-csf.nii.gz infant-neo-seg-gm.nii.gz infant-neo-seg-wm.nii.gz infant-neo-seg.nii.gz infant-neo-withCerebellum.nii.gz infant-neo-withSkull.nii.gz infant-neo.nii.gz\n[dglen@gollum.nimh.nih.gov: Wed Mar 13 17:36:24 2013] 3dcalc -a infant-neo-seg-csf.nii.gz -expr a/10 -prefix infant-neo-seg-csf -datum float\n[dglen@gollum.nimh.nih.gov: Wed Mar 13 17:36:26 2013] 3dbucket -prefix infant-neo-pmaps infant-neo-seg-csf+tlrc infant-neo-seg-wm+tlrc. infant-neo-seg-gm+tlrc.\n[dglen@gollum.nimh.nih.gov: Wed Mar 13 17:36:34 2013] 3drefit -sublabel 0 CSF -sublabel 1 white -sublabel 2 grey infant-neo-pmaps+tlrc\n[dglen@gollum.nimh.nih.gov: Wed Mar 13 17:36:34 2013] 3drefit -cmap CONT_CMAP infant-neo-pmaps+tlrc\n[dglen@gollum.nimh.nih.gov: Wed Mar 13 17:36:34 2013] 3drefit -atrint ATLAS_PROB_MAP 1 infant-neo-pmaps+tlrc\n[dglen@gollum.nimh.nih.gov: Wed Mar 13 17:36:34 2013] 3drefit -atrstring ATLAS_LABEL_TABLE file:segs_pmap.niml infant-neo-pmaps+tlrc\n[dglen@gollum.nimh.nih.gov: Fri Mar 15 12:25:37 2013] 3drefit -atrstring ATLAS_LABEL_TABLE file:segs_pmap.niml infant-neo-pmaps+tlrc~
+
+type = string-attribute
+name = TYPESTRING
+count = 15
+'3DIM_HEAD_ANAT~
+
+type = string-attribute
+name = IDCODE_STRING
+count = 27
+'AFN__5UYdq6CwsTEGQqk0Qv7SA~
+
+type = string-attribute
+name = IDCODE_DATE
+count = 25
+'Wed Mar 13 17:36:26 2013~
+
+type = integer-attribute
+name = SCENE_DATA
+count = 8
+ 2 11 0 -999 -999
+ -999 -999 -999
+
+type = string-attribute
+name = LABEL_1
+count = 5
+'zyxt~
+
+type = string-attribute
+name = LABEL_2
+count = 5
+'zyxt~
+
+type = string-attribute
+name = DATASET_NAME
+count = 5
+'zyxt~
+
+type = integer-attribute
+name = ORIENT_SPECIFIC
+count = 3
+ 1 2 4
+
+type  = float-attribute
+name  = ORIGIN
+count = 3
+             89            125            -71
+
+type  = float-attribute
+name  = DELTA
+count = 3
+             -1             -1              1
+
+type  = float-attribute
+name  = IJK_TO_DICOM
+count = 12
+             -1              0              0             89              0
+             -1              0            125              0              0
+              1            -71
+
+type  = float-attribute
+name  = IJK_TO_DICOM_REAL
+count = 12
+             -1              0              0             89              0
+             -1              0            125              0              0
+              1            -71
+
+type  = float-attribute
+name  = BRICK_STATS
+count = 6
+              0              1              0              1              0
+              1
+
+type = integer-attribute
+name = DATASET_RANK
+count = 8
+ 3 3 0 0 0
+ 0 0 0
+
+type = integer-attribute
+name = DATASET_DIMENSIONS
+count = 5
+ 181 217 181 0 0
+
+type = integer-attribute
+name = BRICK_TYPES
+count = 3
+ 3 3 3
+
+type  = float-attribute
+name  = BRICK_FLOAT_FACS
+count = 3
+              0              0              0
+
+type = string-attribute
+name = BRICK_LABS
+count = 15
+'CSF~white~grey~
+
+type = string-attribute
+name = TEMPLATE_SPACE
+count = 15
+'unc_infant_neo~
+
+type = integer-attribute
+name = INT_CMAP
+count = 1
+ 0
+
+type = string-attribute
+name = BYTEORDER_STRING
+count = 10
+'LSB_FIRST~
+
+type = string-attribute
+name = BRICK_KEYWORDS
+count = 3
+'~~~
+
+type = integer-attribute
+name = ATLAS_PROB_MAP
+count = 1
+ 1
+
+type = string-attribute
+name = ATLAS_LABEL_TABLE
+count = 441
+'<atlas_point_list
+ ni_form="ni_group" >
+<ATLAS_POINT
+data_type="atlas_point"
+STRUCT=CSF
+VAL="0"
+OKEY="0"
+GYoAR="0"
+COG=" 0.000000 0.000000 0.000000"
+SB_LABEL=CSF />
+<ATLAS_POINT
+data_type="atlas_point"
+STRUCT=white
+VAL="1"
+OKEY="1"
+GYoAR="0"
+COG=" 0.000000 0.000000 0.000000"
+SB_LABEL=white />
+<ATLAS_POINT
+data_type="atlas_point"
+STRUCT=grey
+VAL="2"
+OKEY="2"
+GYoAR="0"
+COG=" 0.000000 0.000000 0.000000"
+SB_LABEL=grey />
+</atlas_point_list>~
