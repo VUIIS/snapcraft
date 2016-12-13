@@ -5,13 +5,18 @@ description: same as above
 
 apps:
   emacs:
-    command: Makefile.in
+    command: emacs
 parts:
   emacs:
-    plugin: dump
+    plugin: autotools
     source: https://ftp.gnu.org/gnu/emacs/emacs-25.1.tar.xz 
+    configflags:
+      - --with-tiff=no
     build-packages:
-      - g++
+      - libxpm-dev 
+      - libjpeg-dev
+      - libgif-dev 
+
 
 
 
