@@ -2,3 +2,4 @@
 
 # Finished Packages
 bmon
+emacs
