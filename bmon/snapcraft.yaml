@@ -5,11 +5,13 @@ description: same as above
 
 apps:
   bmon:
-    command: Makefile.in
+    command: bin/bmon
 parts:
   bmon:
-    plugin: cmake
+    plugin: autotools
     source: https://github.com/tgraf/bmon/releases/download/v3.9/bmon-3.9.tar.gz
     build-packages:
-      - g++
-
+      - libncurses5-dev
+      - libconfuse-dev
+      - libnl-genl-3-dev
+      - libnl-route-3-dev
