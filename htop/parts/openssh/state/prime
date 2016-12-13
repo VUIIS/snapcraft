@@ -1,9 +1,0 @@
-!PrimeState
-dependency_paths: !!set {}
-directories: !!set {bin: null, share: null, share/applications: null, share/man: null,
-  share/man/man1: null, share/pixmaps: null}
-files: !!set {bin/htop: null, share/applications/htop.desktop: null, share/man/man1/htop.1: null,
-  share/pixmaps/htop.png: null}
-project_options: {}
-properties:
-  snap: ['*']

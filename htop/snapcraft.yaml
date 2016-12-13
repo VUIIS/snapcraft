@@ -5,9 +5,10 @@ description: htop is an interactive text-mode process viewer for Unix Systems. I
 
 apps:
   htop:
-    command: bin/htop 
+    command: ./autogen.sh
 parts:
-  openssh:
+  htop:
+    plugin: autotools
     source: https://github.com/hishamhm/htop.git
     source-type: git
     build-packages:
