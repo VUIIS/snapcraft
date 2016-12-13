@@ -5,7 +5,7 @@ description: dropbox
 
 apps:
   dropbox:
-    command: ./dropbox-lnx.x86_64-15.4.22/dropbox
+    command: dropbox
 
 parts:
   dropbox:
