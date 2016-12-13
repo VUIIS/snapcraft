@@ -10,3 +10,5 @@ parts:
    cifs-utils:
       plugin: dump
       source: https://download.samba.org/pub/linux-cifs/cifs-utils/cifs-utils-6.6.tar.bz2
+      build-packages:
+        - libcap-dev
